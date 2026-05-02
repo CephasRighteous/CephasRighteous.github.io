@@ -18,6 +18,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      font-weight: bold;
     }
 
     .menu-btn {
@@ -28,12 +29,11 @@
     .menu {
       display: none;
       background: #1e1e2f;
-      padding: 10px;
     }
 
     .menu a {
       display: block;
-      padding: 10px;
+      padding: 12px;
       color: white;
       text-decoration: none;
       border-bottom: 1px solid #333;
@@ -43,12 +43,20 @@
       background: purple;
     }
 
+    .section {
+      padding: 15px;
+    }
+
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
     .card {
       background: #1e1e2f;
-      margin: 15px;
+      margin-bottom: 15px;
       padding: 15px;
       border-radius: 10px;
-      text-align: center;
     }
 
     img {
@@ -56,7 +64,7 @@
       border-radius: 10px;
     }
 
-    .download-btn {
+    .btn {
       display: inline-block;
       margin-top: 10px;
       padding: 10px;
@@ -64,6 +72,12 @@
       color: white;
       text-decoration: none;
       border-radius: 5px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -77,23 +91,52 @@
 
 <div class="menu" id="menu">
   <a href="#">Home</a>
-  <a href="#">Games</a>
-  <a href="#">Wallpapers</a>
-  <a href="#">YouTube</a>
+  <a href="#games">Games</a>
+  <a href="#wallpapers">Wallpapers</a>
+  <a href="#youtube">YouTube</a>
 </div>
 
-<div class="card">
-  <h2>FIFA 23 Mobile</h2>
-  <img src="https://via.placeholder.com/400x200">
-  <p>Download FIFA 23 for Android</p>
-  <a class="download-btn" href="#">Download</a>
+<!-- GAMES -->
+<div class="section" id="games">
+  <div class="title">🎮 Games</div>
+
+  <div class="card">
+    <h3>FIFA 23 Mobile</h3>
+    <img src="https://via.placeholder.com/400x200">
+    <p>Download FIFA 23 for Android</p>
+    <a class="btn" href="#">Download</a>
+  </div>
+
+  <div class="card">
+    <h3>PES 2024</h3>
+    <img src="https://via.placeholder.com/400x200">
+    <p>Latest PES version</p>
+    <a class="btn" href="#">Download</a>
+  </div>
 </div>
 
-<div class="card">
-  <h2>PES 2024</h2>
-  <img src="https://via.placeholder.com/400x200">
-  <p>Latest PES version</p>
-  <a class="download-btn" href="#">Download</a>
+<!-- WALLPAPERS -->
+<div class="section" id="wallpapers">
+  <div class="title">🔥 Wallpapers</div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x700">
+    <a class="btn" href="#">Download Wallpaper</a>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/400x700">
+    <a class="btn" href="#">Download Wallpaper</a>
+  </div>
+</div>
+
+<!-- YOUTUBE -->
+<div class="section" id="youtube">
+  <div class="title">📺 YouTube</div>
+
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
+  </div>
 </div>
 
 <script>
@@ -103,5 +146,7 @@ function toggleMenu() {
 }
 </script>
 
+</body>
+</html>
 </body>
 </html>
