@@ -3,20 +3,44 @@
 <head>
   <title>CRIGHTEOUSGAMER</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
       font-family: Arial;
       background: #0f0f1a;
       color: white;
-      text-align: center;
     }
 
     header {
       background: purple;
       padding: 15px;
-      font-size: 22px;
-      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .menu-btn {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .menu {
+      display: none;
+      background: #1e1e2f;
+      padding: 10px;
+    }
+
+    .menu a {
+      display: block;
+      padding: 10px;
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid #333;
+    }
+
+    .menu a:hover {
+      background: purple;
     }
 
     .card {
@@ -24,6 +48,7 @@
       margin: 15px;
       padding: 15px;
       border-radius: 10px;
+      text-align: center;
     }
 
     img {
@@ -31,7 +56,7 @@
       border-radius: 10px;
     }
 
-    a {
+    .download-btn {
       display: inline-block;
       margin-top: 10px;
       padding: 10px;
@@ -45,21 +70,38 @@
 
 <body>
 
-<header>CRIGHTEOUSGAMER 🎮</header>
+<header>
+  <div>CRIGHTEOUSGAMER 🎮</div>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
+
+<div class="menu" id="menu">
+  <a href="#">Home</a>
+  <a href="#">Games</a>
+  <a href="#">Wallpapers</a>
+  <a href="#">YouTube</a>
+</div>
 
 <div class="card">
   <h2>FIFA 23 Mobile</h2>
   <img src="https://via.placeholder.com/400x200">
   <p>Download FIFA 23 for Android</p>
-  <a href="#">Download</a>
+  <a class="download-btn" href="#">Download</a>
 </div>
 
 <div class="card">
   <h2>PES 2024</h2>
   <img src="https://via.placeholder.com/400x200">
   <p>Latest PES version</p>
-  <a href="#">Download</a>
+  <a class="download-btn" href="#">Download</a>
 </div>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
 
 </body>
 </html>
