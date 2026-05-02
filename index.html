@@ -3,55 +3,165 @@
 <head>
   <title>CRIGHTEOUS GAMER</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f1a;
+      color: white;
+    }
+
+    /* HEADER */
+    header {
+      background: #1a1a2e;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-weight: bold;
+      font-size: 18px;
+      color: #7b4dd8;
+    }
+
+    .menu-btn {
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    /* MENU */
+    .menu {
+      display: none;
+      background: #1e1e2f;
+    }
+
+    .menu a {
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px solid #333;
+    }
+
+    .menu a:hover {
+      background: #7b4dd8;
+    }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(135deg,#5a2ea6,#7b4dd8);
+      padding: 50px 20px;
+      text-align: center;
+      border-radius: 0 0 20px 20px;
+    }
+
+    .hero h1 {
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-patreon {
+      background: #ff3d81;
+      color: white;
+    }
+
+    .btn-youtube {
+      background: #ffcc00;
+      color: black;
+    }
+
+    /* SECTIONS */
+    .section {
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e1e2f;
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+
+    a.link {
+      color: #7b4dd8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+  </style>
 </head>
 
-<body style="margin:0;background:#0f0f1a">
+<body>
 
-<div style="max-width:1100px;margin:auto;padding:20px;font-family:Arial,Helvetica,sans-serif;color:#ffffff">
+<!-- HEADER -->
+<header>
+  <div class="logo">CRIGHTEOUS 🎮</div>
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</header>
 
-  <!-- HERO -->
-  <section style="background:linear-gradient(135deg,#5a2ea6,#7b4dd8);padding:50px 20px;border-radius:18px;text-align:center;color:white">
-    <h1>Welcome to CRIGHTEOUS GAMER</h1>
-
-    <p>
-      Gaming updates, guides, digital products, and creative content by CRighteous.
-    </p>
-
-    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:12px">
-
-      <a href="https://patreon.com/Crighteousgamer" target="_blank"
-      style="flex:1 1 240px;padding:15px;background:#ff3d81;color:white;text-decoration:none;border-radius:10px">
-        ❤️ Support the Channel
-      </a>
-
-      <a href="https://www.youtube.com/@crighteous" target="_blank"
-      style="flex:1 1 240px;padding:15px;background:#ffcc00;color:black;text-decoration:none;border-radius:10px">
-        🔔 Subscribe on YouTube
-      </a>
-
-    </div>
-  </section>
-
-  <!-- GAMES -->
-  <section style="margin:50px 0">
-    <h2>🎮 Games & Guides</h2>
-
-    <div style="display:flex;flex-wrap:wrap;gap:20px">
-
-      <div style="flex:1 1 300px;background:#1e1e2f;padding:20px;border-radius:14px">
-        <h3>PES / eFootball</h3>
-        <a href="pes.html" style="color:#7b4dd8">Visit →</a>
-      </div>
-
-      <div style="flex:1 1 300px;background:#1e1e2f;padding:20px;border-radius:14px">
-        <h3>FIFA</h3>
-        <a href="fifa.html" style="color:#7b4dd8">Visit →</a>
-      </div>
-
-    </div>
-  </section>
-
+<!-- MENU -->
+<div class="menu" id="menu">
+  <a href="index.html">Home</a>
+  <a href="pes.html">PES</a>
+  <a href="fifa.html">FIFA</a>
+  <a href="wallpapers.html">Wallpapers</a>
+  <a href="youtube.html">YouTube</a>
 </div>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Welcome to CRIGHTEOUS GAMER</h1>
+  <p>Gaming updates, guides, digital products, and content by CRighteous.</p>
+
+  <div class="buttons">
+    <a href="https://patreon.com/Crighteousgamer" target="_blank" class="btn btn-patreon">❤️ Support</a>
+    <a href="https://www.youtube.com/@crighteous" target="_blank" class="btn btn-youtube">🔔 YouTube</a>
+  </div>
+</div>
+
+<!-- GAMES SECTION -->
+<div class="section">
+  <h2>🎮 Games</h2>
+
+  <div class="card">
+    <h3>PES / eFootball</h3>
+    <p>Tips, updates and gameplay.</p>
+    <a href="pes.html" class="link">Visit →</a>
+  </div>
+
+  <div class="card">
+    <h3>FIFA</h3>
+    <p>Guides and football content.</p>
+    <a href="fifa.html" class="link">Visit →</a>
+  </div>
+</div>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("menu");
+  menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
 
 </body>
 </html>
