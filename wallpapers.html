@@ -16,7 +16,7 @@
 
     .btn{
       display:inline-block;
-      margin:6px;
+      margin-top:12px;
       background:#7b4dd8;
       color:white;
       padding:12px 18px;
@@ -25,16 +25,35 @@
       font-weight:bold;
     }
 
-    .wallpaper{
-      background:white;
-      border-radius:14px;
-      overflow:hidden;
-      padding:15px;
+    .wallpaper-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:20px;
+      margin-top:25px;
     }
 
-    .wallpaper img{
+    .card{
+      background:white;
+      border-radius:16px;
+      overflow:hidden;
+      padding:15px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    }
+
+    .card img{
       width:100%;
       border-radius:12px;
+    }
+
+    .tag{
+      display:inline-block;
+      margin-top:10px;
+      background:#ece7ff;
+      color:#5a2ea6;
+      padding:6px 12px;
+      border-radius:20px;
+      font-size:13px;
+      font-weight:bold;
     }
 
   </style>
@@ -76,23 +95,23 @@ box-shadow:0 2px 10px rgba(0,0,0,0.3);
 </div>
 
 <!-- MAIN CONTENT -->
-<div style="max-width:1100px;margin:auto;padding:170px 20px 20px 20px">
+<div style="max-width:1200px;margin:auto;padding:170px 20px 30px 20px">
 
   <!-- HERO -->
   <div style="
   background:linear-gradient(135deg,#5a2ea6,#7b4dd8);
-  padding:40px 20px;
-  border-radius:18px;
+  padding:50px 20px;
+  border-radius:20px;
   text-align:center;
   color:white;
   ">
 
-    <h1>🖼 Gaming Wallpapers</h1>
+    <h1>🖼 Premium Wallpapers</h1>
 
-    <p>
-      High-quality gaming wallpapers,
-      anime edits, football graphics,
-      and aesthetic designs by CRighteous.
+    <p style="max-width:700px;margin:auto">
+      Discover beautiful phone and PC wallpapers including
+      aesthetic, nature, dark mode, cars, anime, neon,
+      minimal, and luxury designs.
     </p>
 
   </div>
@@ -112,24 +131,70 @@ box-shadow:0 2px 10px rgba(0,0,0,0.3);
 
   </div>
 
-  <!-- WALLPAPERS GRID -->
-  <div style="
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:20px;
-  ">
+  <!-- PHONE WALLPAPERS -->
+  <div style="margin-top:40px">
 
-    <!-- WALLPAPER 1 -->
-    <div class="wallpaper">
+    <h2 style="color:#5a2ea6">
+      📱 Phone Wallpapers
+    </h2>
 
-      <img src="wallpaper1.jpg" alt="Wallpaper">
+    <div class="wallpaper-grid">
 
-      <h3>🔥 eFootball Wallpaper</h3>
+      <!-- WALLPAPER 1 -->
+      <div class="card">
 
-      <div style="text-align:center;margin-top:15px">
+        <img src="phone1.jpg" alt="Phone Wallpaper">
+
+        <div class="tag">PHONE</div>
+
+        <h3>🌌 Dark Aesthetic</h3>
+
+        <p>Clean dark wallpaper for modern smartphones.</p>
 
         <a class="btn"
-           href="wallpaper1.jpg"
+           href="phone1.jpg"
+           download>
+
+           ⬇️ Download
+
+        </a>
+
+      </div>
+
+      <!-- WALLPAPER 2 -->
+      <div class="card">
+
+        <img src="phone2.jpg" alt="Phone Wallpaper">
+
+        <div class="tag">PHONE</div>
+
+        <h3>🚗 Luxury Cars</h3>
+
+        <p>Stylish car wallpaper optimized for mobile.</p>
+
+        <a class="btn"
+           href="phone2.jpg"
+           download>
+
+           ⬇️ Download
+
+        </a>
+
+      </div>
+
+      <!-- WALLPAPER 3 -->
+      <div class="card">
+
+        <img src="phone3.jpg" alt="Phone Wallpaper">
+
+        <div class="tag">PHONE</div>
+
+        <h3>🌸 Anime Vibes</h3>
+
+        <p>High-quality anime inspired aesthetic design.</p>
+
+        <a class="btn"
+           href="phone3.jpg"
            download>
 
            ⬇️ Download
@@ -140,17 +205,30 @@ box-shadow:0 2px 10px rgba(0,0,0,0.3);
 
     </div>
 
-    <!-- WALLPAPER 2 -->
-    <div class="wallpaper">
+  </div>
 
-      <img src="wallpaper2.jpg" alt="Wallpaper">
+  <!-- PC WALLPAPERS -->
+  <div style="margin-top:50px">
 
-      <h3>⚽ FIFA Mobile Wallpaper</h3>
+    <h2 style="color:#5a2ea6">
+      💻 PC Wallpapers
+    </h2>
 
-      <div style="text-align:center;margin-top:15px">
+    <div class="wallpaper-grid">
+
+      <!-- PC 1 -->
+      <div class="card">
+
+        <img src="pc1.jpg" alt="PC Wallpaper">
+
+        <div class="tag">PC</div>
+
+        <h3>🌃 Neon City</h3>
+
+        <p>Ultra-wide cyberpunk desktop wallpaper.</p>
 
         <a class="btn"
-           href="wallpaper2.jpg"
+           href="pc1.jpg"
            download>
 
            ⬇️ Download
@@ -159,19 +237,40 @@ box-shadow:0 2px 10px rgba(0,0,0,0.3);
 
       </div>
 
-    </div>
+      <!-- PC 2 -->
+      <div class="card">
 
-    <!-- WALLPAPER 3 -->
-    <div class="wallpaper">
+        <img src="pc2.jpg" alt="PC Wallpaper">
 
-      <img src="wallpaper3.jpg" alt="Wallpaper">
+        <div class="tag">PC</div>
 
-      <h3>🎮 Gaming Aesthetic</h3>
+        <h3>🏔 Nature Escape</h3>
 
-      <div style="text-align:center;margin-top:15px">
+        <p>Relaxing mountains and nature scenery wallpaper.</p>
 
         <a class="btn"
-           href="wallpaper3.jpg"
+           href="pc2.jpg"
+           download>
+
+           ⬇️ Download
+
+        </a>
+
+      </div>
+
+      <!-- PC 3 -->
+      <div class="card">
+
+        <img src="pc3.jpg" alt="PC Wallpaper">
+
+        <div class="tag">PC</div>
+
+        <h3>✨ Minimal Setup</h3>
+
+        <p>Minimal clean wallpaper for modern desktops.</p>
+
+        <a class="btn"
+           href="pc3.jpg"
            download>
 
            ⬇️ Download
@@ -186,7 +285,7 @@ box-shadow:0 2px 10px rgba(0,0,0,0.3);
 
   <!-- COPYRIGHT -->
   <div style="
-  margin-top:40px;
+  margin-top:50px;
   font-size:13px;
   color:#777;
   text-align:center;
