@@ -8,11 +8,8 @@ public_folder: "/images/uploads"
 collections:
   - name: "games"
     label: "Games"
-    folder: "games"
+    folder: "_posts/games"
     create: true
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Thumbnail", name: "image", widget: "image" }
-      - { label: "Download Link", name: "download", widget: "string" }
