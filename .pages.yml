@@ -1,0 +1,36 @@
+media:
+  - name: products
+    label: Product Images
+    input: Store/images
+    output: /Store/images
+
+content:
+  - name: products
+    label: Products
+    path: Store/products.json
+    type: file
+    format: json
+    fields:
+      - name: products
+        label: Products
+        type: object
+        list: true
+        fields:
+          - name: id
+            label: Product ID
+            type: string
+          - name: name
+            label: Product Name
+            type: string
+          - name: price
+            label: Price (ZMW)
+            type: number
+          - name: description
+            label: Description
+            type: text
+          - name: image
+            label: Image
+            type: string
+          - name: category
+            label: Category
+            type: string
