@@ -14,7 +14,7 @@ A responsive static storefront for clothing and phone accessories. Designed for 
 Open `products.js` and change:
 
 ```js
-whatsappNumber: "26097XXXXXXX",
+whatsappNumber: "260776047029",
 ```
 
 to your actual WhatsApp number in international format, digits only. For example, a Zambian number is generally written starting with `260`, followed by the number without its leading `0`. Do not publish until you replace the placeholder.
