@@ -1,8 +1,17 @@
-(() => {
+(async () => {
   "use strict";
 
   const config = window.STORE_CONFIG || {};
-  const products = Array.isArray(window.STORE_PRODUCTS) ? window.STORE_PRODUCTS : [];
+  let products = Array.isArray(window.STORE_PRODUCTS) ? window.STORE_PRODUCTS : [];
+
+  try {
+    const response = await fetch("products.json");
+    if (!response.ok) throw new Error("Could not load products.json");
+    const data = await response.json();
+    if (Array.isArray(data.products)) products = data.products;
+  } catch (error) {
+    console.error("Product loading failed:", error);
+  }
   const money = new Intl.NumberFormat(config.locale || "en-ZM", {
     style: "currency", currency: config.currency || "ZMW",
     maximumFractionDigits: 2
