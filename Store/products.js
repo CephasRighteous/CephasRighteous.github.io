@@ -7,7 +7,7 @@ window.STORE_CONFIG = {
   storeName: "CRighteous Store",
   // Replace with your WhatsApp number in international format, digits only.
   // Zambia example: 26097XXXXXXX. Do not include +, spaces, or dashes.
-  whatsappNumber: "26097XXXXXXX",
+  whatsappNumber: "260976047029",
   currency: "ZMW",
   locale: "en-ZM"
 };
