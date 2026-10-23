@@ -29,8 +29,8 @@ content:
             label: Description
             type: text
           - name: image
-            label: Image
-            type: string
+            label: product image
+            type: image
           - name: category
             label: Category
             type: string
