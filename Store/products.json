@@ -1,0 +1,12 @@
+{
+  "products": [
+    {
+      "id": "test001",
+      "name": "Phone Case",
+      "price": 150,
+      "description": "Phone case available in multiple styles.",
+      "image": "",
+      "category": "Phone accessories"
+    }
+  ]
+}
