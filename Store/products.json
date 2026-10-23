@@ -1,85 +1,60 @@
-
 {
   "products": [
     {
       "id": "tee-basic",
       "name": "Classic Everyday T-Shirt",
-      "category": "Clothing",
-      "price": 180,
-      "badge": "Popular",
+      "price": 2000,
       "description": "A versatile tee for everyday wear.",
-      "image": "",
-      "options": "Size: S, M, L, XL; Colours: black, white"
+      "category": "Clothing"
     },
     {
       "id": "hoodie",
       "name": "Classic Pullover Hoodie",
-      "category": "Clothing",
       "price": 350,
-      "badge": "New",
       "description": "A comfortable layer for cooler days.",
-      "image": "",
-      "options": "Size: S, M, L, XL; Colours: black, grey"
+      "category": "Clothing"
     },
     {
       "id": "cap",
       "name": "Everyday Cap",
-      "category": "Clothing",
       "price": 120,
-      "badge": "",
       "description": "A simple cap to finish your outfit.",
-      "image": "",
-      "options": "Adjustable fit; Colours: black, navy"
+      "category": "Clothing"
     },
     {
       "id": "phone-case",
       "name": "Protective Phone Case",
-      "category": "Phone accessories",
       "price": 80,
-      "badge": "Popular",
       "description": "A protective case for selected phone models.",
-      "image": "",
-      "options": "Please specify your exact phone model and colour"
+      "category": "Phone accessories"
     },
     {
       "id": "charger",
       "name": "USB Charging Adapter",
-      "category": "Phone accessories",
       "price": 150,
-      "badge": "",
       "description": "A practical charging accessory. Confirm compatibility.",
-      "image": "",
-      "options": "Specify connector and phone model before ordering"
+      "category": "Phone accessories"
     },
     {
       "id": "screen-protector",
       "name": "Screen Protector",
-      "category": "Phone accessories",
       "price": 50,
-      "badge": "",
       "description": "Screen protection for selected phone models.",
-      "image": "",
-      "options": "Please specify your exact phone model"
+      "category": "Phone accessories"
     },
     {
       "id": "earphones",
       "name": "Wired Earphones",
-      "category": "Phone accessories",
       "price": 90,
-      "badge": "",
       "description": "Everyday audio for compatible devices.",
-      "image": "",
-      "options": "Specify USB-C, Lightning, or 3.5 mm connector"
+      "category": "Phone accessories"
     },
     {
       "id": "cable",
       "name": "Charging Cable",
-      "category": "Phone accessories",
       "price": 60,
-      "badge": "",
       "description": "A replacement cable for compatible devices.",
-      "image": "",
-      "options": "Specify USB-C, Lightning, or Micro-USB"
+      "category": "Phone accessories"
     }
   ]
 }
