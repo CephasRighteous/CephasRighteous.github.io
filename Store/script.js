@@ -68,13 +68,18 @@
     toastTimer = setTimeout(() => toast.classList.remove("show"), 2200);
   }
 
-  function productImage(product, className = "product-image") {
-    if (product.image && /^https:\/\/|^http:\/\//i.test(product.image)) {
-      return `<img class="${className}" src="${safeText(product.image)}" alt="${safeText(product.name)}" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.hidden=false">` +
-        `<div class="product-placeholder" hidden aria-hidden="true">CR</div>`;
-    }
-    return `<div class="product-placeholder" aria-hidden="true">CR</div>`;
+  
+function productImage(product, className = "product-image") {
+  if (product.image && product.image.trim()) {
+    const imageUrl = product.image.trim();
+
+    return `<img class="${className}" src="${safeText(imageUrl)}" alt="${safeText(product.name || "Product")}" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+      <div class="product-placeholder" hidden aria-hidden="true">CR</div>`;
   }
+
+  return `<div class="product-placeholder" aria-hidden="true">CR</div>`;
+}
+
 
   function filteredProducts() {
     let list = products.filter(product => {
