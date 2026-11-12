@@ -1,10 +1,10 @@
 {
   "products": [
     {
-      "id": "tee-basic",
+      "id": "Football jerseys",
       "name": "Man City kit 26/27 season ",
       "price": 150,
-      "description": "A versatile tee for everyday wear.",
+      "description": "Second class.",
       "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.55 PM.jpeg",
       "category": "Clothing"
     },
@@ -12,50 +12,54 @@
       "id": "Football Kits",
       "name": "Barcelona ",
       "price": 150,
-      "description": "A comfortable layer for cooler days.",
+      "description": "Second class top jerseys.",
       "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.55 PM (1)-1.jpeg",
       "category": "Clothing"
     },
     {
-      "id": "cap",
+      "id": "Football jerseys",
       "name": "Barcelona kit 26/27 season",
       "price": 150,
-      "description": "Second class.",
+      "description": "Second class top jerseys.",
       "image": "/Store/images/football kits.jpg",
       "category": "Clothing"
     },
     {
-      "id": "phone-case",
+      "id": "Football Jerseys Top",
       "name": "Football Jerseys {each}",
       "price": 300,
-      "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.56 PM (1).jpeg",
+      "description": "First class top jerseys",
+      "image": "/Store/images/samsung charger.jpg",
       "category": "Phone accessories"
     },
     {
       "id": "Samsung Chargers",
-      "name": "Samsung c to c 45 watts chargers",
+      "name": "Samsung c to c 20 to 45 watts chargers",
       "price": 250,
       "description": "A practical charging accessory. Confirm compatibility.",
+      "image": "/Store/images/iphone charger.jpg",
       "category": "Phone accessories"
     },
     {
       "id": "iPhone chargers",
-      "name": "C to Lightning chargers {25 / 35 watts] each",
+      "name": "C to Lightning chargers {20 / 45 watts] each",
       "price": 250,
       "description": "Iphone fast chargers for compatible devices .",
+      "image": "/Store/images/typec earphones.jpg",
       "category": "Phone accessories"
     },
     {
       "id": "earphones",
       "name": "Wired Earphones/ Type C",
-      "price": 90,
+      "price": 150,
       "description": "Everyday audio for compatible devices.",
+      "image": "/Store/images/iphone earphones.jpg",
       "category": "Phone accessories"
     },
     {
       "id": "Earphones",
       "name": "Wired lightning earphones",
-      "price": 90,
+      "price": 150,
       "description": "Everyday audio for compatible devices.",
       "category": "Phone accessories"
     }
