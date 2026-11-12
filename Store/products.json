@@ -11,13 +11,13 @@
     {
       "id": "Football Kits",
       "name": "Barcelona ",
-      "price": 350,
+      "price": 150,
       "description": "A comfortable layer for cooler days.",
       "category": "Clothing"
     },
     {
       "id": "cap",
-      "name": "Everyday Cap",
+      "name": "Barcelona kit 26/27 season",
       "price": 120,
       "description": "A simple cap to finish your outfit.",
       "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.55 PM (1).jpeg",
@@ -25,38 +25,37 @@
     },
     {
       "id": "phone-case",
-      "name": "Protective Phone Case",
-      "price": 80,
-      "description": "A protective case for selected phone models.",
+      "name": "Football Jerseys {each}",
+      "price": 150,
       "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.56 PM (1).jpeg",
       "category": "Phone accessories"
     },
     {
-      "id": "charger",
-      "name": "USB Charging Adapter",
-      "price": 150,
+      "id": "Samsung Chargers",
+      "name": "Samsung c to c 45 watts chargers",
+      "price": 250,
       "description": "A practical charging accessory. Confirm compatibility.",
       "category": "Phone accessories"
     },
     {
-      "id": "screen-protector",
-      "name": "Screen Protector",
-      "price": 50,
-      "description": "Screen protection for selected phone models.",
+      "id": "iPhone chargers",
+      "name": "C to Lightning chargers {25 / 35 watts] each",
+      "price": 250,
+      "description": "Iphone fast chargers for compatible devices .",
       "category": "Phone accessories"
     },
     {
       "id": "earphones",
-      "name": "Wired Earphones",
+      "name": "Wired Earphones/ Type C",
       "price": 90,
       "description": "Everyday audio for compatible devices.",
       "category": "Phone accessories"
     },
     {
-      "id": "cable",
-      "name": "Charging Cable",
-      "price": 60,
-      "description": "A replacement cable for compatible devices.",
+      "id": "Earphones",
+      "name": "Wired lightning earphones",
+      "price": 90,
+      "description": "Everyday audio for compatible devices.",
       "category": "Phone accessories"
     }
   ]
