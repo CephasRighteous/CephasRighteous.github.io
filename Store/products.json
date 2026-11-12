@@ -13,20 +13,21 @@
       "name": "Barcelona ",
       "price": 150,
       "description": "A comfortable layer for cooler days.",
+      "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.55 PM (1)-1.jpeg",
       "category": "Clothing"
     },
     {
       "id": "cap",
       "name": "Barcelona kit 26/27 season",
-      "price": 120,
-      "description": "A simple cap to finish your outfit.",
-      "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.55 PM (1).jpeg",
+      "price": 150,
+      "description": "Second class.",
+      "image": "/Store/images/football kits.jpg",
       "category": "Clothing"
     },
     {
       "id": "phone-case",
       "name": "Football Jerseys {each}",
-      "price": 150,
+      "price": 300,
       "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.56 PM (1).jpeg",
       "category": "Phone accessories"
     },
