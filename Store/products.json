@@ -18,10 +18,10 @@
     },
     {
       "id": "Football jerseys",
-      "name": "Barcelona kit 26/27 season",
+      "name": "Real Madrid top jerseys 26/27 season",
       "price": 150,
       "description": "Second class top jerseys.",
-      "image": "/Store/images/football kits.jpg",
+      "image": "/Store/images/WhatsApp Image 2026-10-23 at 4.14.56 PM (2).jpeg",
       "category": "Clothing"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Football Jerseys {each}",
       "price": 300,
       "description": "First class top jerseys",
-      "image": "/Store/images/samsung charger.jpg",
+      "image": "/Store/images/football kits-1.jpg",
       "category": "Phone accessories"
     },
     {
@@ -37,7 +37,7 @@
       "name": "Samsung c to c 20 to 45 watts chargers",
       "price": 250,
       "description": "A practical charging accessory. Confirm compatibility.",
-      "image": "/Store/images/iphone charger.jpg",
+      "image": "/Store/images/samsung charger-1.jpg",
       "category": "Phone accessories"
     },
     {
@@ -45,7 +45,7 @@
       "name": "C to Lightning chargers {20 / 45 watts] each",
       "price": 250,
       "description": "Iphone fast chargers for compatible devices .",
-      "image": "/Store/images/typec earphones.jpg",
+      "image": "/Store/images/iphone charger-1.jpg",
       "category": "Phone accessories"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Wired Earphones/ Type C",
       "price": 150,
       "description": "Everyday audio for compatible devices.",
-      "image": "/Store/images/iphone earphones.jpg",
+      "image": "/Store/images/typec earphones-1.jpg",
       "category": "Phone accessories"
     },
     {
